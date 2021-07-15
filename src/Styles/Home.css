@@ -1,0 +1,260 @@
+*{
+    box-sizing: border-box;
+}
+ 
+.row{
+    display: flex;
+   
+}
+.header-row{
+     justify-content: space-between;
+      padding: 65px 24px 96px 113px;
+}
+.left h1{
+    width: 634px;
+    font-weight: 400;
+    font-size: 55px;
+    margin: 0;
+}
+.left p{
+    width: 492px;
+    font-size: 20px;
+    margin-top: 47px;
+    margin-bottom: 30px;
+}
+.header-form{
+  
+   border: 1px solid #E3E7E2; 
+   border-radius: 100px;
+   width: 508px;
+}
+.header-input{
+    width: 60%;
+    border: none;
+    border-radius: 100px 0 0 100px;
+    padding: 27px;
+    outline: transparent;
+}
+.header-input::placeholder{
+    color:  #8D9499;
+    font-size: 18px;
+    
+}
+.header-form button{
+    width: 40%;
+    background-color:  #415AFF;
+    border: none;
+    padding: 27px;
+    border-radius: 0 100px 100px 0;
+    color: #fff;
+    font-size: 18px;
+    text-align: start;
+    font-weight: 400;
+   
+    
+}
+
+.arrow-icon{
+    margin-left: 30px;
+    display: inline-block;
+    vertical-align: middle;
+   
+}
+.input-comment{
+    display: inline-block;
+    margin-top: 8px;
+    color: #8D9499;
+}
+.did-you-know{
+    padding: 0 280px 60px 280px;
+}
+
+.did-you-know-column{
+    width: 294px;
+
+}
+.did-you-know-column:first-child{
+    margin-right: 130px;
+}
+.did-you-know-row{
+    display: flex;
+    justify-content: center;
+}
+.did-you-know-text{
+    font-size: 21px;
+    color: #44464D;
+    margin-left: 26px;
+    width: 262px;
+    margin-bottom: 21px;
+}
+.did-you-know-title{
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 26px;
+    text-transform: uppercase;
+}
+.hidden{
+    visibility: hidden;
+}
+.partner-companies{
+    padding: 0 208px;
+    margin-bottom: 105px;
+}
+.partner-companies-row{
+    justify-content: space-between;
+    align-items: center;
+}
+.partner-companies h3{
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 16px;
+}
+.trackers{
+    margin-bottom: 117px;
+}
+.trackers-row .column:first-child{
+    width: 604px;
+    height: 758px;
+}
+
+.trackers-row .column:first-child{
+    background-image: url('../images/Frame.jpg');
+    background-size: cover;
+}
+.trackers-row{
+    justify-content: start;
+    align-items:  center;
+}
+.trackers-row .column:last-child{
+    margin-left: 115px;
+    width: 462px;
+}
+.trackers-row .did-you-know-title{
+    margin: 0;
+    margin-bottom: 8px;
+}
+.trackers-title{
+    font-size: 32px;
+    width: 352px;
+}
+.trackers-second-title{
+    font-size: 56px;
+    margin: 29px 0 99px 0;
+
+}
+.yellow-btn{
+    text-decoration: none;
+    color: #191919;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 21px 32px;
+    background-color: #F5FF93;
+    border-radius: 36px;
+
+}
+.generic-results{
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 81px;
+
+}
+.generic-results .did-you-know-title{
+    margin: 0;
+}
+.generic-results .column:first-child{
+    width: 465px;
+    margin-left: 114px;
+}
+.generic-results .column:last-child{
+    width: 540px;
+    height: 766px;
+background-image: url('../images//Frame\ \(1\).jpg');
+
+}
+.join form{
+    display: inline-block;
+}
+.join{
+    text-align: center;
+    padding: 0 339px 146px 339px;
+}
+.join small{
+    display: block;
+}
+.join-title{
+    font-size: 72px;
+    margin: 0;
+    margin-bottom: 51px;
+
+}
+.experts{
+   padding: 0 104px 0 201px;
+}
+.experts-row{
+    align-items: center;
+    justify-content: space-between;
+}
+.experts-row .column:first-child{
+    width: 490px;
+}
+.experts-row .column:last-child{
+    width: 490px;
+}
+.experts .trackers-second-title{
+    font-size: 57px;
+    margin: 29px 0 64px 0;
+}
+.experts .trackers-title{
+    width: 419px;
+    
+}
+.cards-row{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.advertiser-row{
+    justify-content: space-between;
+    align-items: center;
+     padding: 0 113px 48px 113px;
+}
+.advertiser-row h1{
+    margin-bottom: 61px;
+    width: 670px;
+    font-size: 55px;
+}
+.card{
+    width: 310px;
+    padding: 48px 48px 52px 48px;
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.12);
+    border-radius: 16px;
+}
+.card:not(:last-child){
+    margin-right: 32px;
+}
+.card blockquote{
+    margin: 0;
+    margin-bottom: 38px;
+    font-size: 20px;
+    
+}
+.why-people-love{
+    padding: 0 72px 195px 32px;
+}
+.why-people-love h4{
+    font-size: 26px;
+    font-weight: 400;
+    margin: 0 0 56px 12px;
+}
+.author{
+    display: block;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+.job-status{
+    color: #737980;
+    font-size: 12px;
+    text-transform: uppercase;
+}

@@ -1,0 +1,241 @@
+/* Tablet design */
+@media (min-width: 768px) and (max-width: 1024px){
+    .header-row{
+        padding: 34px;
+        align-items: center;
+    }
+    .left{
+        width: 50%;
+    }
+    .left h1, .left p, .left form{
+        width: 100%;
+    }
+    .header-input{
+        width: 57%;
+        padding: 13px;
+    }
+    .header-input + button{
+        width: 43%;
+    }
+    .right{
+        width: 50%;
+    }
+    .right img{
+        width: 100%;
+    }
+    .dod-you-know{
+        padding: 0;
+    }
+    .partner-companies , .join, .experts , .why-people-love 
+        
+    {
+        padding: 40px;
+    }
+    .partner-companies-row img{
+        width: 100%;
+    }
+    .experts-row .column:first-child{
+        width: 45%;
+    }
+    .experts-row .column:last-child{
+        width: 55%;
+    }
+    .card{
+        width: 25%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .advertiser-row{
+padding:30px;
+padding-top: 0;
+    }
+    .trackers-row .column:first-child {
+        width: 55%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: left center;
+    }
+    .trackers-row .column:last-child {
+        margin-left: 20px;
+    }
+    .experts-row .column:first-child {
+        width: 40%;
+    }
+    .experts-row .column:last-child {
+        width: 60%;}
+        .experts .trackers-title {
+            width: 100%;
+        }
+        .cards-row {
+            justify-content: flex-end;
+        }
+        .card blockquote {
+            font-size: 14px;
+        }
+        .advertiser-row h1 {
+            font-size: 40px;
+        }
+        .advertiser-row {
+            padding: 30px;
+            padding-top: 0;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+}
+/* Mobile Design */
+@media (max-width: 765px){
+    .header-row{
+        padding: 10px;
+        flex-direction: column;
+    }
+    .header-row .left{
+        order:2 ;
+        text-align: center;
+    }
+    .header-row .right{
+        order:1 ;
+        margin-bottom: 25px;
+    }
+    .left h1{
+        font-size: 28px;
+    }
+    .left p{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .left h1, .left p, .left form{
+        width: 100%;
+    }
+    .right img{
+        width: 100%;
+    }
+    .did-you-know{
+        padding:15px;
+        text-align: center;
+    }
+    .did-you-know-row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .did-you-know-column:first-child {
+        margin-right: 0px;
+    }
+    .partner-companies{
+        padding: 10px;
+    }
+    .partner-companies-row {
+        flex-direction: column;
+
+    }
+    .partner-companies-row img{
+        display: block;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .trackers-row{
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+    .trackers-row .column:first-child {
+       display: none;
+    }
+    .trackers-row .column:last-child {
+        margin-left: 0px;
+        width: 100%;
+    }
+    .header-form button {
+        font-size: 15px;
+        padding:20px;
+    }
+    .header-form input{
+        padding: 20px;
+    }
+    .header-input::placeholder{
+        font-size: 15px;}
+        .did-you-know-text {
+            margin-left: 0px;
+            width: 100%;
+        }
+        .did-you-know-title{
+            margin-left: 0;
+        }
+        .trackers-title {
+            width: 100%;
+        }
+        .trackers-second-title{
+            font-size: 45px;
+        } 
+        .generic-results .column:first-child {
+            text-align: center;
+            width: 100%;
+            margin-left: 0px;
+        }
+        .generic-results{
+            flex-direction: column;
+        }
+
+        .generic-results .column:last-child {
+            display: none;
+        }
+        .join{
+            padding: 10px;
+        }
+        .join-title{
+            font-size: 50px;
+        }
+        .header-form{
+            width: 100%;
+        }
+        .experts{
+            padding: 10px;
+            text-align: center;
+        }
+        .why-people-love{
+            padding: 10px;
+        }
+        .why-people-love-row{
+            align-items: center;}
+        .experts-row ,.cards-row, .why-people-love-row{
+            flex-direction: column;
+            
+        }
+        .experts .trackers-title,.experts-row .column:first-child, .experts-row .column:first-child, .experts-row .column:last-child   {
+            width: 100%;
+        }
+         
+        .cards-row{
+            margin-top: 60px;
+            align-items: center;
+        }
+        .card{
+            margin-right: 0;
+            margin-bottom: 30px;
+        }
+        .advertiser-row{
+            text-align: center;
+            flex-direction: column;
+            padding: 10px;
+        }
+        .advertiser-row .left{
+            order: 2;
+            margin-top: 20px;
+        }
+        .why-people-love h4{
+            margin: 0;
+            text-align: center;
+        }
+        .card:not(:last-child) {
+            margin-right: 0px;
+        }
+        .did-you-know-column{
+            width: 100%;
+        padding: 10px;}
+        .did-you-know-column img{
+            width: 100%;
+        }
+        .card{
+            width: 100%;
+        }
+
+}
